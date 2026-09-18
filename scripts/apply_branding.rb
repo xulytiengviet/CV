@@ -1,5 +1,6 @@
 #!/usr/bin/env ruby
 require "yaml"
+require "date"
 
 config_path = ARGV.fetch(0)
 branding_path = ARGV.fetch(1)
@@ -15,7 +16,8 @@ def deep_merge(base, overlay)
   base
 end
 
-config = YAML.load_file(config_path, aliases: true) || {}
-branding = YAML.load_file(branding_path, aliases: true) || {}
+yaml_options = { permitted_classes: [Date, Time], aliases: true }
+config = YAML.load_file(config_path, **yaml_options) || {}
+branding = YAML.load_file(branding_path, **yaml_options) || {}
 
 File.write(config_path, deep_merge(config, branding).to_yaml)
