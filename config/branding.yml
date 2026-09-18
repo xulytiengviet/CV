@@ -1,0 +1,32 @@
+title: Long Ngo
+first_name: Long
+middle_name:
+last_name: Ngo
+description: >
+  Long Ngo is a researcher working across environmental geography, GIS and GeoAI,
+  sensing and IoT, autonomous systems, and Vietnamese NLP/LLM technologies.
+contact_note: >
+  Research collaboration, open-source geospatial systems, GeoAI, sensing and embodied intelligence.
+footer_text: >
+  © 2026 Long Ngo. Built with Jekyll and the open-source al-folio theme; hosted on GitHub Pages.
+keywords: GIS, GeoAI, environmental geography, geospatial AI, IoT, robotics, SLAM, sensor fusion, NLP, LLM, Vietnam, Mekong Delta
+lang: en
+icon: 🗺️
+url: https://xulytiengviet.github.io
+baseurl: /CV
+last_updated: true
+back_to_top: true
+navbar_fixed: true
+footer_fixed: false
+search_enabled: true
+socials_in_search: true
+posts_in_search: false
+bib_search: true
+serve_og_meta: true
+serve_schema_org: true
+protect_email: true
+blog_name: Long Ngo Research Notes
+blog_description: Notes on GIS, GeoAI, sensing, robotics and open-source geospatial systems.
+external_sources: []
+newsletter:
+  enabled: false
